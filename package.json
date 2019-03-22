@@ -1,0 +1,39 @@
+{
+  "name": "music-database",
+  "version": "1.0.0",
+  "description": "Music database to practice GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch",
+    "react-prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjones61692/musicDatabase.git"
+  },
+  "author": "MLJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjones61692/musicDatabase/issues"
+  },
+  "homepage": "https://github.com/mjones61692/musicDatabase#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "apollo-boost": "^0.3.1",
+    "babel-loader": "^8.0.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.1",
+    "react": "^16.8.4",
+    "react-apollo": "^2.5.2",
+    "react-dom": "^16.8.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
